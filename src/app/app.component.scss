@@ -1,0 +1,34 @@
+.editor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(black, .1);
+  visibility: hidden;
+  z-index: 50;
+  &.active {
+    visibility: visible;
+  }
+  &__textarea {
+    position: absolute;
+    box-shadow: 0 0 20px black;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: .2s;
+    width: 800px;
+    height: 100%;
+    border: none;
+  }
+  &.active &__textarea {
+    transform: translateX(0);
+  }
+}
+
+ngx-monaco-editor {
+  height: 100%;
+  ::ng-deep .editor-container {
+    height: 100%;
+  }
+}

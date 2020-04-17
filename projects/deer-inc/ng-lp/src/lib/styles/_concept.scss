@@ -1,0 +1,32 @@
+.nglp-concept {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  &__image {
+    text-align: center;
+    padding-right: 40px;
+    img {
+      max-width: 450px;
+      max-height: 320px;
+    }
+  }
+  &__body {
+    flex: 1;
+  }
+  &__title {
+    font-size: 32px;
+    margin-bottom: 24px;
+    font-weight: bold;
+    line-height: 1.6;
+  }
+  &__description {
+    line-height: 32px;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+  &--single {
+    text-align: center;
+  }
+}
