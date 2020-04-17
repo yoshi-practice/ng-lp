@@ -1,5 +1,5 @@
 {
-  "name": "@deer-inc/ng-lp",
+  "name": "@newcreator-org/ng-lp",
   "version": "0.0.2",
   "license": "MIT",
   "peerDependencies": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/deer-inc/ng-lp"
+    "url": "https://github.com/newcreator-org/ng-lp"
   },
   "dependencies": {
     "@fortawesome/angular-fontawesome": "^0.3.0",

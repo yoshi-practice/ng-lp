@@ -1,6 +1,6 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
-import { NgLpModule } from '@deer-inc/ng-lp';
+import { NgLpModule } from '@newcreator-org/ng-lp';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MonacoEditorModule } from 'ngx-monaco-editor';
 

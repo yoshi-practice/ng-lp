@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.com/deer-inc/ng-lp.svg?branch=master)](https://travis-ci.com/deer-inc/ng-lp)
-[![Coverage Status](https://coveralls.io/repos/github/deer-inc/ng-lp/badge.svg?branch=master)](https://coveralls.io/github/deer-inc/ng-lp?branch=master)
-![npm](https://img.shields.io/npm/v/@deer-inc/ng-lp.svg)
-![GitHub](https://img.shields.io/github/license/deer-inc/ng-lp.svg)
+[![Build Status](https://travis-ci.com/newcreator-org/ng-lp.svg?branch=master)](https://travis-ci.com/newcreator-org/ng-lp)
+[![Coverage Status](https://coveralls.io/repos/github/newcreator-org/ng-lp/badge.svg?branch=master)](https://coveralls.io/github/newcreator-org/ng-lp?branch=master)
+![npm](https://img.shields.io/npm/v/@newcreator-org/ng-lp.svg)
+![GitHub](https://img.shields.io/github/license/newcreator-org/ng-lp.svg)
 
 # NGLP
 
@@ -14,12 +14,12 @@ NGLPライブラリを使えばデータバインドでモダンなLPをデー�
 ## Getting Started
 
 ```bash
-yarn add @deer-inc/ng-lp
+yarn add @newcreator-org/ng-lp
 ```
 
 app.module.ts
 ```ts
-import { NgLpModule } from '@deer-inc/ng-lp';
+import { NgLpModule } from '@newcreator-org/ng-lp';
 
   imports: [
     BrowserModule,
@@ -35,18 +35,18 @@ App.component.ts
 export class AppComponent {
   data: Lp = {
     title: 'NGLP',
-    owner: 'Deer, Inc',
+    owner: 'newCreator.org',
     attributions: [
       'Free Vectors via <a target="_blank" href="https://www.vecteezy.com/">vecteezy.com</a>'
     ],
     account: {
-      gitHub: 'https://github.com/deer-inc/ng-lp',
+      gitHub: 'https://github.com/newcreator-org/ng-lp',
       twitter: 'https://twitter.com/d151005'
     },
     menues: [
       {
         label: 'ドキュメント',
-        url: 'https://github.com/deer-inc/ng-lp/wiki'
+        url: 'https://github.com/newcreator-org/ng-lp/wiki'
       }
     ],
     contents: {
@@ -67,7 +67,7 @@ export class AppComponent {
           title: 'オープンソース',
           description: 'NGLPはオープンソース(OSS)です。PRは常に歓迎されています。バグや要望があれば気軽にIssueを立ててください。',
           actionLabel: 'GitHubリポジトリ',
-          actionURL: 'https://github.com/deer-inc/ng-lp'
+          actionURL: 'https://github.com/newcreator-org/ng-lp'
         },
         {
           imageURL: './assets/mit.png',

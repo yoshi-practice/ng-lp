@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Lp, Voice } from '@deer-inc/ng-lp';
+import { Lp, Voice } from '@newcreator-org/ng-lp';
 
 import * as faker from 'faker/locale/ja';
 import { FormControl } from '@angular/forms';
@@ -23,18 +23,18 @@ export class AppComponent {
 
   data: Lp = {
     title: 'NGLP',
-    owner: 'Deer, Inc',
+    owner: 'newCreator.org',
     attributions: [
       'Free Vectors via <a target="_blank" href="https://www.vecteezy.com/">vecteezy.com</a>'
     ],
     account: {
-      gitHub: 'https://github.com/deer-inc/ng-lp',
+      gitHub: 'https://github.com/newcreator-org/ng-lp',
       twitter: 'https://twitter.com/d151005'
     },
     menues: [
       {
         label: 'ドキュメント',
-        url: 'https://github.com/deer-inc/ng-lp/wiki'
+        url: 'https://github.com/newcreator-org/ng-lp/wiki'
       }
     ],
     contents: {
@@ -55,7 +55,7 @@ export class AppComponent {
           title: 'オープンソース',
           description: 'NGLPはオープンソース(OSS)です。PRは常に歓迎されています。バグや要望があれば気軽にIssueを立ててください。',
           actionLabel: 'GitHubリポジトリ',
-          actionURL: 'https://github.com/deer-inc/ng-lp'
+          actionURL: 'https://github.com/newcreator-org/ng-lp'
         },
         {
           imageURL: './assets/mit.png',

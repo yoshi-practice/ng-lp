@@ -20,11 +20,11 @@
       "dom"
     ],
     "paths": {
-      "@deer-inc/ng-lp": [
-        "dist/deer-inc/ng-lp"
+      "@newcreator-org/ng-lp": [
+        "dist/newcreator-org/ng-lp"
       ],
-      "@deer-inc/ng-lp/*": [
-        "dist/deer-inc/ng-lp/*"
+      "@newcreator-org/ng-lp/*": [
+        "dist/newcreator-org/ng-lp/*"
       ]
     }
   }
